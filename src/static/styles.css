@@ -2,7 +2,39 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: .activity-card p {
+  margin-bottom: 10px;
+}
+
+.participants-list {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.participants-list li {
+  padding: 4px 0;
+  color: #666;
+  font-size: 0.9em;
+  border-bottom: 1px solid #eee;
+}
+
+.participants-list li:last-child {
+  border-bottom: none;
+}
+
+.participants-header {
+  font-size: 0.95em;
+  color: #444;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form-group {, sans-serif;
 }
 
 body {
